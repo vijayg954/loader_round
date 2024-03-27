@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  padding: 50px;
+  background-color: rgb(27, 171, 135);
+}
+#loder {
+  height: 150px;
+  width: 150px;
+  border: 5px solid rgb(5, 60, 90);
+  border-radius: 50%;
+  border-top-color: rgb(125, 207, 118);
+  animation: rotate 2s infinite ease-in;
+  /* background-color: red; */
+}
+@keyframes rotate {
+  10% {
+    rotate: 360deg;
+  }
+}
+
+#loder1 {
+  height: 150px;
+  width: 150px;
+  border: 5px solid rgb(198, 16, 16);
+  border-radius: 50%;
+  border-top-color: rgb(171, 212, 167);
+  animation: rotate1 2s infinite ease-in;
+  /* background-color: red; */
+}
+@keyframes rotate1 {
+  50% {
+    rotate: 360deg;
+  }
+}
+#loder2 {
+  height: 150px;
+  width: 150px;
+  border: 5px solid rgb(11, 51, 20);
+  border-radius: 50%;
+  border-top-color: rgb(221, 58, 216);
+  animation: rotate2 2s infinite ease-in;
+  /* background-color: red; */
+}
+@keyframes rotate2 {
+  100% {
+    rotate: 360deg;
+  }
+}
+.hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
